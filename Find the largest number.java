@@ -7,7 +7,7 @@ class Main {
         int[] arr = {10, 25, 7, 99, 43};
         int max=arr[0];
 
-        for(int i=0;i<arr.length;i++)
+        for(int i=1;i<arr.length;i++)
         {
        if(arr[i]>max){
            max=arr[i];
